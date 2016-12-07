@@ -1,0 +1,30 @@
+{
+  "name": "meanstack",
+  "version": "1.0.0",
+  "description": "Criando aplicação utilizando MEAN Stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "angularjs"
+  ],
+  "author": "Diego Muniz Cerqueira <cerqueiranews@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-load": "^1.1.15",
+    "jwt-simple": "^0.5.0",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0"
+  }
+}
